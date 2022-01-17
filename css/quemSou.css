@@ -1,0 +1,12 @@
+.quemSou__conteudo{
+    background-image: linear-gradient(to bottom, var(--cor4) , var(--cor1));
+   
+    
+}
+.quemSou__titulo{
+
+}
+.quemSou__texto{
+    text-align: justify;
+   
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/quemSou.css">
+    <link rel="stylesheet" href="css/fotos.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="/Projeto 1/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho" id="cabecalho">
+        <nav class="navegacao">
+            <ul class="lista__navegacao">
+                <li class="items__navegacao"><a href="#principal" class="link__navegacao">Home</a></li>
+                <p class="separacao">||</p>
+                <li class="items__navegacao"><a href="#quemSou" class="link__navegacao">Quem Sou</a></li>
+                <p class="separacao">||</p>
+                <li class="items__navegacao"><a href="#fotos" class="link__navegacao">Fotos</a></li>
+                <p class="separacao">||</p>
+                <li class="items__navegacao"><a href="#contato" class="link__navegacao">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="principal" id="principal">
+        <section class="home__conteudo">
+            <h1 class="titulo__principal">
+                Esse é o Tom
+            </h1>
+            <div class="home__imagem">
+
+            </div>
+            <h2 class="titulo__secundario">
+                Esse também é o Tom
+            </h2>
+            <div class="home__sentado">
+            </div>
+            
+        </section>
+        <section class="quemSou__conteudo" id="quemSou">
+            <h2 class="titulo__secundario quemSou__titulo">Quem sou?</h2>
+            <p class="quemSou__texto">
+                Se você me pedisse uma descriação de quem eu sou, eu diria que não faz muito sentido fazer uma descrição própria, mas naturalmente o nosso objetivo aqui não é descrever a minha pessoa mas sim esse bichano, afinal a página tem ele como referência.
+            </p>
+            <p class="quemSou__texto"> Durante meu esforço reflexivo para descrever o Tom tive que controlar as palavras para que certos adjetivos negativos não escapassem pelos meus dedos. O que ele tem de lindo, ele tem de agressivo. As vezes a fofura dele ultrapassa certas barreiras, mas os arranhoes ultrapassam a carne e doem bastante.</p>
+        </section>
+    </main>
+    <section class="fotos" id="fotos">
+        <h2 class="titulo__secundario titulo__fotos">Fotos, vamos lá!!</h2>
+        <div class="fotos__tom"></div>
+        <div class="fotos__tom"></div>
+        <div class="fotos__tom"></div>
+        <div class="fotos__tom"></div>
+        <div class="fotos__tom"></div>
+        <div class="fotos__tom"></div>
+    </section>
+    <section class="contato" id="contato">
+        <h2 class="titulo__contato">Contato</h2>
+        <form action="#" class="container">
+            <label for="email" class="item">Digite aqui o seu E-mail para contato
+            <input type="email" id="email" placeholder="E-mail" name="email">
+            </label>
+            <label for="telefone" class="item">
+                Digite aqui o seu Telefone
+                <input type="tel" id="telefone" placeholder="Telefone" name="telefone" required></label>
+                <label for="checkbox__what" class="item">
+                    Gostaria de ser contatado por whatsapp?
+                    <input type="checkbox" name="checkbox__what" id="checkbox__what" checked>
+                </label>
+                <label for="checkbox__mail" class="item">
+                    Gostaria de ser contatado por email?
+                    <input type="checkbox" name="checkbox__email" id="checkbox__email">
+                </label>
+                <label for="button" class="item"><input type="submit"id="button"></label>
+        </form>
+    </section>
+    <footer class="footer">
+        <p class="footer__paragrafo">Copyright&copy; 2022</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.contato{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+}
+
+.titulo__contato{
+    text-align: center;
+    color: var(--cor2);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.item{
+    text-align: center;
+    color: var(--cor4);
+    font-size: 1.9em;
+    margin-top: 2rem;
+}
+
+input{
+    width: 90vw;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+#button{
+    width: 100vw;
+    background:var(--cor4);
+    border-radius: 20px;
+}

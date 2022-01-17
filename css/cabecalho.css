@@ -1,0 +1,42 @@
+
+.cabecalho{
+    width: 100vw;
+    height: 10vh;
+    background-image: linear-gradient( to bottom, var(--cor2), var(--cor4) );
+    border-radius: 0px 0px 5px 5px;
+}
+
+.navegacao{
+    width: 100%;
+    height: 100%;
+
+}
+.lista__navegacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-top: 0.5rem;
+    text-align: center;
+    
+}
+.link__navegacao{
+    text-decoration: none;
+    font-size: 1.7em;
+    margin-right: 0.5em;
+    color: var(--cor4);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.103);
+}
+.separacao{
+    color: var(--cor4);
+    font-size: 2em;
+    margin-right: 0.5em;
+    margin-left: 0.1em;
+    
+}
+
+.link__navegacao:hover{
+    text-decoration: underline;
+    color: var(--cor1);
+}
+

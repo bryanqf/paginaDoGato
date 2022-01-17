@@ -1,0 +1,41 @@
+.fotos{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    width: 100vw;
+}  
+
+.titulo__fotos{
+    width: 100vw;
+    color: var(--cor4);
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.fotos__tom:nth-child(2){
+    background: url('../img/WhatsApp\ Image\ 2021-08-31\ at\ 00.40.09.jpeg') center / cover no-repeat;
+}
+.fotos__tom:nth-child(3){
+    background: url('../img/WhatsApp\ Image\ 2021-06-04\ at\ 21.29.25.jpeg') center / cover no-repeat;
+}
+.fotos__tom:nth-child(4){
+    background: url('../img/WhatsApp\ Image\ 2021-06-04\ at\ 21.30.58.jpeg') center / cover no-repeat;
+}
+.fotos__tom:nth-child(5){
+    background: url('../img/WhatsApp\ Image\ 2021-06-09\ at\ 08.44.47.jpeg') center / cover no-repeat;
+}
+.fotos__tom:nth-child(6){
+    background: url('../img/WhatsApp\ Image\ 2022-01-03\ at\ 23.44.57.jpeg') center / cover no-repeat;
+}
+.fotos__tom:nth-child(7){
+    background: url('../img/WhatsApp\ Image\ 2021-10-16\ at\ 01.37.12.jpeg') center / cover no-repeat;
+}
+
+.fotos__tom:nth-child(2n):hover{
+    transform: translate(50%) scale(1.5);
+    transition: 1s;
+}
+.fotos__tom:nth-child(2n+1):hover{
+    transform: translate(-50%) scale(1.5);
+    transition: 1s;
+}
+
